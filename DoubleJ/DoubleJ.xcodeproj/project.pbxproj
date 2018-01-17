@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3512F8200F1FD000C16142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3512F7200F1FD000C16142 /* AppDelegate.swift */; };
+		3D3512FA200F1FD000C16142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3512F9200F1FD000C16142 /* ViewController.swift */; };
+		3D3512FD200F1FD000C16142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3512FB200F1FD000C16142 /* Main.storyboard */; };
+		3D351300200F1FD000C16142 /* DoubleJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D3512FE200F1FD000C16142 /* DoubleJ.xcdatamodeld */; };
+		3D351302200F1FD000C16142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D351301200F1FD000C16142 /* Assets.xcassets */; };
+		3D351305200F1FD000C16142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D351303200F1FD000C16142 /* LaunchScreen.storyboard */; };
+		3D351310200F1FD100C16142 /* DoubleJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35130F200F1FD100C16142 /* DoubleJTests.swift */; };
+		3D35131B200F1FD100C16142 /* DoubleJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35131A200F1FD100C16142 /* DoubleJUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D35130C200F1FD100C16142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3512EC200F1FD000C16142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3512F3200F1FD000C16142;
+			remoteInfo = DoubleJ;
+		};
+		3D351317200F1FD100C16142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3512EC200F1FD000C16142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3512F3200F1FD000C16142;
+			remoteInfo = DoubleJ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3512F4200F1FD000C16142 /* DoubleJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3512F7200F1FD000C16142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D3512F9200F1FD000C16142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3512FC200F1FD000C16142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3512FF200F1FD000C16142 /* DoubleJ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubleJ.xcdatamodel; sourceTree = "<group>"; };
+		3D351301200F1FD000C16142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D351304200F1FD000C16142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D351306200F1FD000C16142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D35130B200F1FD100C16142 /* DoubleJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35130F200F1FD100C16142 /* DoubleJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleJTests.swift; sourceTree = "<group>"; };
+		3D351311200F1FD100C16142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D351316200F1FD100C16142 /* DoubleJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35131A200F1FD100C16142 /* DoubleJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleJUITests.swift; sourceTree = "<group>"; };
+		3D35131C200F1FD100C16142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3512F1200F1FD000C16142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351308200F1FD100C16142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351313200F1FD100C16142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3512EB200F1FD000C16142 = {
+			isa = PBXGroup;
+			children = (
+				3D3512F6200F1FD000C16142 /* DoubleJ */,
+				3D35130E200F1FD100C16142 /* DoubleJTests */,
+				3D351319200F1FD100C16142 /* DoubleJUITests */,
+				3D3512F5200F1FD000C16142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3512F5200F1FD000C16142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3512F4200F1FD000C16142 /* DoubleJ.app */,
+				3D35130B200F1FD100C16142 /* DoubleJTests.xctest */,
+				3D351316200F1FD100C16142 /* DoubleJUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3512F6200F1FD000C16142 /* DoubleJ */ = {
+			isa = PBXGroup;
+			children = (
+				3D3512F7200F1FD000C16142 /* AppDelegate.swift */,
+				3D3512F9200F1FD000C16142 /* ViewController.swift */,
+				3D3512FB200F1FD000C16142 /* Main.storyboard */,
+				3D351301200F1FD000C16142 /* Assets.xcassets */,
+				3D351303200F1FD000C16142 /* LaunchScreen.storyboard */,
+				3D351306200F1FD000C16142 /* Info.plist */,
+				3D3512FE200F1FD000C16142 /* DoubleJ.xcdatamodeld */,
+			);
+			path = DoubleJ;
+			sourceTree = "<group>";
+		};
+		3D35130E200F1FD100C16142 /* DoubleJTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D35130F200F1FD100C16142 /* DoubleJTests.swift */,
+				3D351311200F1FD100C16142 /* Info.plist */,
+			);
+			path = DoubleJTests;
+			sourceTree = "<group>";
+		};
+		3D351319200F1FD100C16142 /* DoubleJUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D35131A200F1FD100C16142 /* DoubleJUITests.swift */,
+				3D35131C200F1FD100C16142 /* Info.plist */,
+			);
+			path = DoubleJUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3512F3200F1FD000C16142 /* DoubleJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D35131F200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJ" */;
+			buildPhases = (
+				3D3512F0200F1FD000C16142 /* Sources */,
+				3D3512F1200F1FD000C16142 /* Frameworks */,
+				3D3512F2200F1FD000C16142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleJ;
+			productName = DoubleJ;
+			productReference = 3D3512F4200F1FD000C16142 /* DoubleJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D35130A200F1FD100C16142 /* DoubleJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D351322200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJTests" */;
+			buildPhases = (
+				3D351307200F1FD100C16142 /* Sources */,
+				3D351308200F1FD100C16142 /* Frameworks */,
+				3D351309200F1FD100C16142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D35130D200F1FD100C16142 /* PBXTargetDependency */,
+			);
+			name = DoubleJTests;
+			productName = DoubleJTests;
+			productReference = 3D35130B200F1FD100C16142 /* DoubleJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D351315200F1FD100C16142 /* DoubleJUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D351325200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJUITests" */;
+			buildPhases = (
+				3D351312200F1FD100C16142 /* Sources */,
+				3D351313200F1FD100C16142 /* Frameworks */,
+				3D351314200F1FD100C16142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D351318200F1FD100C16142 /* PBXTargetDependency */,
+			);
+			name = DoubleJUITests;
+			productName = DoubleJUITests;
+			productReference = 3D351316200F1FD100C16142 /* DoubleJUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3512EC200F1FD000C16142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zhenyu Zhou";
+				TargetAttributes = {
+					3D3512F3200F1FD000C16142 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D35130A200F1FD100C16142 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3512F3200F1FD000C16142;
+					};
+					3D351315200F1FD100C16142 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3512F3200F1FD000C16142;
+					};
+				};
+			};
+			buildConfigurationList = 3D3512EF200F1FD000C16142 /* Build configuration list for PBXProject "DoubleJ" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3512EB200F1FD000C16142;
+			productRefGroup = 3D3512F5200F1FD000C16142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3512F3200F1FD000C16142 /* DoubleJ */,
+				3D35130A200F1FD100C16142 /* DoubleJTests */,
+				3D351315200F1FD100C16142 /* DoubleJUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3512F2200F1FD000C16142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D351305200F1FD000C16142 /* LaunchScreen.storyboard in Resources */,
+				3D351302200F1FD000C16142 /* Assets.xcassets in Resources */,
+				3D3512FD200F1FD000C16142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351309200F1FD100C16142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351314200F1FD100C16142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3512F0200F1FD000C16142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3512FA200F1FD000C16142 /* ViewController.swift in Sources */,
+				3D3512F8200F1FD000C16142 /* AppDelegate.swift in Sources */,
+				3D351300200F1FD000C16142 /* DoubleJ.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351307200F1FD100C16142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D351310200F1FD100C16142 /* DoubleJTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D351312200F1FD100C16142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D35131B200F1FD100C16142 /* DoubleJUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D35130D200F1FD100C16142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3512F3200F1FD000C16142 /* DoubleJ */;
+			targetProxy = 3D35130C200F1FD100C16142 /* PBXContainerItemProxy */;
+		};
+		3D351318200F1FD100C16142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3512F3200F1FD000C16142 /* DoubleJ */;
+			targetProxy = 3D351317200F1FD100C16142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3512FB200F1FD000C16142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3512FC200F1FD000C16142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D351303200F1FD000C16142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D351304200F1FD000C16142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D35131D200F1FD100C16142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D35131E200F1FD100C16142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D351320200F1FD100C16142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D351321200F1FD100C16142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D351323200F1FD100C16142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleJ.app/DoubleJ";
+			};
+			name = Debug;
+		};
+		3D351324200F1FD100C16142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleJ.app/DoubleJ";
+			};
+			name = Release;
+		};
+		3D351326200F1FD100C16142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleJ;
+			};
+			name = Debug;
+		};
+		3D351327200F1FD100C16142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeman.DoubleJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleJ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3512EF200F1FD000C16142 /* Build configuration list for PBXProject "DoubleJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D35131D200F1FD100C16142 /* Debug */,
+				3D35131E200F1FD100C16142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D35131F200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D351320200F1FD100C16142 /* Debug */,
+				3D351321200F1FD100C16142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D351322200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D351323200F1FD100C16142 /* Debug */,
+				3D351324200F1FD100C16142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D351325200F1FD100C16142 /* Build configuration list for PBXNativeTarget "DoubleJUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D351326200F1FD100C16142 /* Debug */,
+				3D351327200F1FD100C16142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D3512FE200F1FD000C16142 /* DoubleJ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D3512FF200F1FD000C16142 /* DoubleJ.xcdatamodel */,
+			);
+			currentVersion = 3D3512FF200F1FD000C16142 /* DoubleJ.xcdatamodel */;
+			path = DoubleJ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D3512EC200F1FD000C16142 /* Project object */;
+}
